@@ -1,0 +1,105 @@
+.topnav {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.rightnav{
+    color:white;
+    padding: 38px 50px 40px 500px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
+
+.rightnav a {
+    color: white;
+    text-align: center;
+    padding: 0; 
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    } 
+
+
+.shopping{
+    height: 18px;
+
+}
+
+.searchbutton{
+    height: 25px;
+    width: 30px;
+    background-color: red;
+    border: 0;
+}
+
+.searchicon{
+    height: 12px;
+    width: 10px;
+
+}
+
+.searchbar{
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 45px 40px 40px 40px;
+    text-decoration: none;
+  }
+
+  
+  li form {
+    display: flex;
+    color: white;
+    padding: 45px 40px 40px 40px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .logo {
+    background-color: #da3121;
+    font-size: 40px;
+    padding: 36px 10px;
+    text-transform: initial;
+    font-weight: normal;
+  }
+
+.p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px;
+}
+
+
+@keyframes example {
+    from {background-color: salmon;}
+    to {background-color: blue;}
+  }
+  .animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
